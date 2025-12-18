@@ -15,7 +15,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - F5
+  - $$mdi:backspace-reverse-outline$$
   - '6'
   - $$mdi:keyboard-tab$$
   - Q
@@ -31,7 +31,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: \, s: '|'}
-  - RGB ON
+  - PgUp
   - T
   - $$mdi:apple-keyboard-caps$$
   - A
@@ -46,7 +46,7 @@ layers:
   - {t: ;, s: ':'}
   - .
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - RGB OFF
+  - PgDn
   - G
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -61,7 +61,7 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:backspace-reverse-outline$$
+  - RGB OFF
   - B
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
@@ -80,10 +80,10 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:arrow-down-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:keyboard-space$$
+  - Ctl+W
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   '1':
@@ -110,9 +110,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '4'
-  - '5'
-  - '6'
+  - '7'
+  - '8'
+  - '9'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -126,9 +126,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '1'
-  - '2'
-  - '3'
+  - '4'
+  - '5'
+  - '6'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,9 +141,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '1'
+  - '2'
+  - '3'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -154,8 +154,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '0'
+  - .
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

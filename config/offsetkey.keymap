@@ -15,7 +15,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &sensors {
-    triggers-per-rotation = <24>;
+    triggers-per-rotation = <48>;
 };
 
 / {

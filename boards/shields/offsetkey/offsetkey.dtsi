@@ -30,13 +30,15 @@ backlight: pwmleds {
   //  };
 };
 	left_encoder: encoder_left {
-		compatible = "alps,ec11";
-		label = "LEFT_ENCODER";
-		resolution = <4>;
-        steps = <40>;
-        a-gpios = <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-	    b-gpios = <&gpio0 25 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		status = "disabled";
+    	compatible = "alps,ec11";
+    	label = "LEFT_ENCODER";
+
+    	steps = <96>;
+
+    	a-gpios = <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+    	b-gpios = <&gpio0 25 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+	
+    	status = "okay";
 	};
 
     sensors: sensors {

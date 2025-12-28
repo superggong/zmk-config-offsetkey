@@ -25,6 +25,13 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <180>;
         };
+
+        inc_dec_msc: sensor_rotation_scroll {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
+            tap-ms = <200>;
+        };
     };
 
     combos {
@@ -50,7 +57,7 @@
             >;
 
             label = "BASE";
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_msc SCRL_DOWN SCRL_UP>;
         };
 
         layer_1 {

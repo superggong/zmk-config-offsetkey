@@ -32,8 +32,8 @@ backlight: pwmleds {
 	left_encoder: encoder_left {
 		compatible = "alps,ec11";
 		label = "LEFT_ENCODER";
-		resolution = <2>;
-        steps = <12>;
+		resolution = <4>;
+        steps = <96>;
         a-gpios = <&gpio1 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 	    b-gpios = <&gpio0 25 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		status = "disabled";
